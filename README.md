@@ -1,4 +1,4 @@
-# common-data-utils  
+# Common Data Utils 
 Generic C# data access library for reusable persistence patterns
 
 <!-- BADGES: https://shields.io/ -->
@@ -7,12 +7,9 @@ Generic C# data access library for reusable persistence patterns
 ![C#](https://img.shields.io/badge/C%23-Data%20Access-green)
 ![Entity Framework](https://img.shields.io/badge/ORM-Entity%20Framework-purple)
 ![Dapper](https://img.shields.io/badge/MicroORM-Dapper-orange)
-![License](https://img.shields.io/github/license/youruser/common-data-utils)
-![Last Commit](https://img.shields.io/github/last-commit/youruser/common-data-utils)
+![License](https://img.shields.io/github/license/jvitorsoaress/common-data-utils)
+![Last Commit](https://img.shields.io/github/last-commit/jvitorsoaress/common-data-utils)
 
----
-
-# Common Data Utils
 
 ## Overview
 
@@ -32,7 +29,7 @@ Instead of rewriting repositories and persistence logic in every project, this l
 
 ---
 
-## Context
+### Context
 
 This library is intended for environments where multiple services or applications share common persistence requirements.
 
@@ -48,7 +45,7 @@ It reflects real-world scenarios where **consistency**, **scalability**, and **m
 
 ---
 
-## Architecture
+### Architecture
 
 This project follows a **modular and extensible architecture**, focusing on reuse and separation of concerns.
 
@@ -155,7 +152,7 @@ This helps ensure consistency across multiple operations.
 
 ---
 
-## Key Design Decisions
+### Key Design Decisions
 
 ### Generic Repository Pattern
 
@@ -198,7 +195,7 @@ This reduces repetitive configuration and speeds development.
 
 ---
 
-## Tech Stack
+### Tech Stack
 
 - .NET 8  
 - C#  
@@ -208,7 +205,3 @@ This reduces repetitive configuration and speeds development.
 - LINQ  
 - Dependency Injection  
 - Async/Await  
-
----
-
-## Suggested Folder Structure
